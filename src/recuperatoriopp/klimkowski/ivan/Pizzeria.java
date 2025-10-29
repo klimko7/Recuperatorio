@@ -15,6 +15,8 @@ import java.util.Iterator;
  */
 public class Pizzeria implements Iterable<Producto>{
     
+    //Profe, por los nervios, me olvide que la ñ no es soportado por el sistema, entonces al correr se printea un simbolo de interrogacion, eso solo
+    
     private String nombre;
     private int capacidad;
     private Collection<Producto> productos;
